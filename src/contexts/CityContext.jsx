@@ -1,6 +1,6 @@
 import { createContext, useState } from 'react';
 
-export const CityContext = createContext('8');
+export const CityContext = createContext('6');
 
 function CityProvider({ children }) {
 

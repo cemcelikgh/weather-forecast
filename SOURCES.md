@@ -8,9 +8,9 @@ Weather forecast REST API
 <br>Jun 2024
 <br><https://docs.tomorrow.io/reference/weather-forecast>
 
-Find reverse geocoding REST API
-<br>Jun 2024
-<br><https://www.geonames.org/export/web-services.html>
+Reverse geocoding REST API
+<br>Feb 2025
+<br><https://developer.tomtom.com/reverse-geocoding-api/documentation/reverse-geocode>
 
 SVG codes of weather icons
 <br>Jun 2024
@@ -20,13 +20,9 @@ SVG to CSS converter
 <br>Jun 2024
 <br><https://www.svgbackgrounds.com/tools/svg-to-css/>
 
-Plant loading image
+plant-preloader.gif
 <br>Jun 2024
 <br><https://icons8.com/preloaders/en/miscellaneous/plant/>
-
-Color palette
-<br>Apr 2024
-<br><https://dribbble.com/shots/17066210-Stopping-to-Smell-the-Flowers>
 
 cloud-sun-rain-solid.svg
 <br>Aug 2024
