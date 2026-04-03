@@ -4,9 +4,6 @@ import plantPreloader from '../others/plant-preloader.gif';
 import cities from "../others/cities.js";
 import '../css/weather-icons.css';
 
-const baseURL = 'https://api.tomorrow.io/v4/weather/forecast';
-const apiKey = 'pngbGz0Ku8gfo7JQy8ZBErLWGvvolX4m';
-
 function WeatherForecast() {
 
   const { selectedCity } = useContext(CityContext);
@@ -18,7 +15,7 @@ function WeatherForecast() {
   useEffect(() => {
     setLoading(true);
     const city = cities.find(city => city.id === selectedCity).name;
-    fetch(`${baseURL}?location=${city}&timesteps=1d&units=metric&apikey=${apiKey}`,
+    fetch(`/.netlify/functions/weatherForecast?city=${city}`,
       {
         method: 'GET',
         headers: { accept: 'application/json', 'accept-encoding': 'deflate, gzip, br' }

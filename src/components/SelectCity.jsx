@@ -2,9 +2,6 @@ import { useContext, useEffect } from "react";
 import { CityContext } from "../contexts/CityContext.jsx";
 import cities from "../others/cities.js";
 
-const baseURL = 'https://api.tomtom.com/search/2/reverseGeocode';
-const apiKey = 'fIPvoNR6jQbl3jMnCArYi5AAHgQzLvpL';
-
 function SelectCity() {
 
   const { selectedCity, setSelectedCity } = useContext(CityContext);
@@ -15,7 +12,7 @@ function SelectCity() {
         const success = (position) => {
           const lat = position.coords.latitude;
           const lon = position.coords.longitude;
-          fetch(`${baseURL}/${lat},${lon}.json?key=${apiKey}`)
+          fetch(`/.netlify/functions/reverseGeocode?lat=${lat}&lon=${lon}`)
             .then(response =>  response.json())
             .then(data => {
               const city = cities.find(city => {
