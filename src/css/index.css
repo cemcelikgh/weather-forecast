@@ -1,19 +1,19 @@
-*{
+:root {
+  --white: #edf2f4;
+  --light-green: #779136;
+  --green: #445f08;
+  --border: 1px solid #edf2f4;
+}
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 body {
+  min-width: 300px;
+  color: var(--white);
   background-color: var(--green);
-  color: #EDF2F4;
-  width: 100vw;
-  height: 100vh;
-}
-
-#root {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
