@@ -4,6 +4,10 @@ react
 <br>Jun 2024
 <br><https://create-react-app.dev/docs/getting-started>
 
+netlify-cli
+<br>Jun 2026
+<br><https://docs.netlify.com/api-and-cli-guides/cli-guides/get-started-with-cli/>
+
 Weather forecast REST API
 <br>Jun 2024
 <br><https://docs.tomorrow.io/reference/weather-forecast>
